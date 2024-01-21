@@ -30,7 +30,7 @@ public class ConcurrentListCheck {
         buildings.forEach(Building::paint);
 
 
-
+        System.out.println("hello");
     }
 
     public static void main(String[] args) {

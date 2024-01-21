@@ -27,6 +27,7 @@ public class ConcurrentListCheck {
     }
 
     public static  void paintAllBuildings(List<? extends Building> buildings) {
+
         buildings.forEach(Building::paint);
 
 
